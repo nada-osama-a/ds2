@@ -1,2 +1,24 @@
 alooooooooooo
-hello stamony (b7bk ya stamony mhma elnas lamony)
+
+Sorting Assignment - Salma
+
+Implement Bubble Sort in Python
+Write random array generation function (sizes 10k to 100k)
+Co-write Time Comparison Report
+Cross-review all algorithms for the discussion
+
+
+Sorting Assignment - Nada
+
+Implement Selection Sort in Python
+Write execution time measurement wrapper (in ms)
+Co-write Time Comparison Report
+Cross-review all algorithms for the discussion
+
+
+Sorting Assignment - Abdullah
+
+Implement Insertion Sort in Python
+Generate Excel graph plotting Time vs Array Size
+Zip files with <id1>_<id2>_<id3>.zip format
+Cross-review all algorithms for the discussion
