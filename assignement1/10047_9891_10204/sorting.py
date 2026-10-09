@@ -18,4 +18,4 @@ def selection_sort(arr):
             if arr[j] < arr[min]:
                 min = j
         arr[i], arr[min] = arr[min], arr[i]
-
+    return arr
