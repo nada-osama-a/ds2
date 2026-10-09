@@ -11,7 +11,7 @@ Cross-review all algorithms for the discussion
 Sorting Assignment - Nada
 
 Implement Selection Sort in Python -> done
-Write execution time measurement wrapper (in ms)
+Write execution time measurement wrapper (in ms) -> done
 Co-write Time Comparison Report
 Cross-review all algorithms for the discussion
 
