@@ -24,12 +24,12 @@ for size in sizes:
     arr = generate_arrays(size)
     bubble_time = measure_sort_time(sorting.bubble_sort, arr.copy())
     selection_time = measure_sort_time(sorting.selection_sort, arr.copy())
-    # insertion_time = measure_sort_time(sorting.insertion_sort, arr.copy())
+    insertion_time = measure_sort_time(sorting.insertion_sort, arr.copy())
 
     print(f"Array size: {size}")
     print(f"Bubble Sort time: {bubble_time:f} ms")
     print(f"Selection Sort time: {selection_time:f} ms")
-    # print(f"Selection Sort time: {selection_time:f} ms")
+    print(f"Insertion Sort time: {insertion_time:f} ms")
     print()
 
  
