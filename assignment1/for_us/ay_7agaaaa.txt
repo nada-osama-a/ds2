@@ -2,8 +2,8 @@ alooooooooooo
 
 Sorting Assignment - Salma
 
-Implement Bubble Sort in Python ->done
-Write random array generation function (sizes 10k to 100k)
+Implement Bubble Sort in Python -> done
+Write random array generation function (sizes 10k to 100k) -> done
 Co-write Time Comparison Report
 Cross-review all algorithms for the discussion
 
@@ -18,7 +18,7 @@ Cross-review all algorithms for the discussion
 
 Sorting Assignment - Abdullah
 
-Implement Insertion Sort in Python
-Generate Excel graph plotting Time vs Array Size
+Implement Insertion Sort in Python -> done
+Generate Excel graph plotting Time vs Array Size -> done
 Zip files with <id1>_<id2>_<id3>.zip format
 Cross-review all algorithms for the discussion
