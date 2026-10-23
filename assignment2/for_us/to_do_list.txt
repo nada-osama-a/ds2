@@ -20,7 +20,7 @@ member 2
 -  Implement MAX-HEAPIFY procedure O(log n) -> done
 -  Implement BUILD-MAX-HEAP procedure O(n) -> done
 -  Implement HEAPSORT main procedure O(n log n) -> done
--  Write central Array Generator & Timing Driver script to pass identical datasets to all algorithms
+-  Write central Array Generator & Timing Driver script to pass identical datasets to all algorithms -> done
 -  Draft Report Section 3: Performance analysis and breakdown of the timing results/graphs
 -  Draft Report Section 4: Final conclusions and comparative summary
 -  Package final submission file into <id1>_<id2>_<id3>.zip format
