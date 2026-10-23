@@ -16,10 +16,10 @@ member 2
  - Prepare for oral discussion: Explain divide-and-conquer strategy, recursion stack overhead, and threshold swit
 
  member 3
--  Implement Bubble Sort algorithm O(n^2)
--  Implement MAX-HEAPIFY procedure O(log n)
--  Implement BUILD-MAX-HEAP procedure O(n)
--  Implement HEAPSORT main procedure O(n log n)
+-  Implement Bubble Sort algorithm O(n^2) -> done
+-  Implement MAX-HEAPIFY procedure O(log n) -> done
+-  Implement BUILD-MAX-HEAP procedure O(n) -> done
+-  Implement HEAPSORT main procedure O(n log n) -> done
 -  Write central Array Generator & Timing Driver script to pass identical datasets to all algorithms
 -  Draft Report Section 3: Performance analysis and breakdown of the timing results/graphs
 -  Draft Report Section 4: Final conclusions and comparative summary
