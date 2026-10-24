@@ -7,7 +7,7 @@ member 1
  - Prepare for oral discussion: Explain randomized pivot logic, in-place sorting, and best/worst-case complexities
 
 member 2
- - Implement Insertion Sort algorithm O(n^2)
+ - Implement Insertion Sort algorithm O(n^2) -> done
  - Implement Merge Sort algorithm O(n log n)
  - Implement Hybrid Merge & Selection Sort algorithm with THRESHOLD parameter logic
  - Run benchmark tests on standard Merge Sort vs Hybrid Merge Sort at different thresholds
