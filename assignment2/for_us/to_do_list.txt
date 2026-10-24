@@ -8,8 +8,8 @@ member 1
 
 member 2
  - Implement Insertion Sort algorithm O(n^2) -> done
- - Implement Merge Sort algorithm O(n log n)
- - Implement Hybrid Merge & Selection Sort algorithm with THRESHOLD parameter logic
+ - Implement Merge Sort algorithm O(n log n) -> done
+ - Implement Hybrid Merge & Selection Sort algorithm with THRESHOLD parameter logic -> done
  - Run benchmark tests on standard Merge Sort vs Hybrid Merge Sort at different thresholds
  - Draft Report Section 1: Overview and theoretical time/space complexity analysis of all algorithms
  - Draft Report Section 2: Hybrid Algorithm explanation and small-array overhead reduction theory

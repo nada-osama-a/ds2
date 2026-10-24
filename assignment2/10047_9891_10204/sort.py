@@ -22,6 +22,17 @@ def insertion_sort(arr):
             j -= 1
         arr[j+1] = key
     return arr
+
+def selection_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        min = i
+        for j in range(i+1, n):
+            if arr[j] < arr[min]:
+                min = j
+        arr[i], arr[min] = arr[min], arr[i]
+    return arr
+
  ###########################################################################
 def max_heapify(arr, n, i):
     largest = i
@@ -90,6 +101,19 @@ def merge(left, right, arr):
 
     return arr
 ####################################################################
+def hybrid_merge_selection_sort(arr, threshold):
+    n = len(arr)
+    
+    if n <= threshold:
+        return selection_sort(arr)
+    
+    mid = n // 2
+    left = arr[:mid]
+    right = arr[mid:]
 
+    left = hybrid_merge_selection_sort(left, threshold)
+    right = hybrid_merge_selection_sort(right, threshold)
+
+    return merge(left, right, arr)
     
     
