@@ -1,9 +1,9 @@
 member 1
- - Implement Selection Sort algorithm O(n^2)
- - Implement Quick Sort algorithm O(n log n) with randomized partitioning
- - Test Selection Sort and Quick Sort using the shared driver script
- - Collect benchmark timing data from all team members across array sizes (1000, 25000, 50000, 100000)
- - Plot and format the final line graph (Time vs Array Size) using Excel or Python
+ - Implement Selection Sort algorithm O(n^2) -> done
+ - Implement Quick Sort algorithm O(n log n) with randomized partitioning -> done
+ - Test Selection Sort and Quick Sort using the shared driver script -> done
+ - Collect benchmark timing data from all team members across array sizes (1000, 25000, 50000, 100000) -> done
+ - Plot and format the final line graph (Time vs Array Size) using Excel or Python -> done
  - Prepare for oral discussion: Explain randomized pivot logic, in-place sorting, and best/worst-case complexities
 
 member 2
@@ -11,8 +11,8 @@ member 2
  - Implement Merge Sort algorithm O(n log n) -> done
  - Implement Hybrid Merge & Selection Sort algorithm with THRESHOLD parameter logic -> done
  - Run benchmark tests on standard Merge Sort vs Hybrid Merge Sort at different thresholds
- - Draft Report Section 1: Overview and theoretical time/space complexity analysis of all algorithms
- - Draft Report Section 2: Hybrid Algorithm explanation and small-array overhead reduction theory
+ - Draft Report Section 1: Overview and theoretical time/space complexity analysis of all algorithms -> done
+ - Draft Report Section 2: Hybrid Algorithm explanation and small-array overhead reduction theory -> done
  - Prepare for oral discussion: Explain divide-and-conquer strategy, recursion stack overhead, and threshold swit
 
  member 3
@@ -21,7 +21,7 @@ member 2
 -  Implement BUILD-MAX-HEAP procedure O(n) -> done
 -  Implement HEAPSORT main procedure O(n log n) -> done
 -  Write central Array Generator & Timing Driver script to pass identical datasets to all algorithms -> done
--  Draft Report Section 3: Performance analysis and breakdown of the timing results/graphs
--  Draft Report Section 4: Final conclusions and comparative summary
+-  Draft Report Section 3: Performance analysis and breakdown of the timing results/graphs -> done
+-  Draft Report Section 4: Final conclusions and comparative summary -> done
 -  Package final submission file into <id1>_<id2>_<id3>.zip format
 -  Prepare for oral discussion: Explain heap properties, binary tree array representation, and in-place sorting vs extra space
