@@ -1,3 +1,5 @@
+import random
+
 def bubble_sort(arr):
     n = len(arr)
 
@@ -34,6 +36,7 @@ def selection_sort(arr):
     return arr
 
  ###########################################################################
+
 def max_heapify(arr, n, i):
     largest = i
     left = 2 * i + 1
@@ -64,6 +67,7 @@ def heap_sort(arr):
         max_heapify(a, i, 0)
 
     return a        
+
 ####################################################################
 
 def merge_sort(arr):
@@ -100,7 +104,9 @@ def merge(left, right, arr):
         k += 1
 
     return arr
+
 ####################################################################
+
 def hybrid_merge_selection_sort(arr, threshold):
     n = len(arr)
     
@@ -115,5 +121,25 @@ def hybrid_merge_selection_sort(arr, threshold):
     right = hybrid_merge_selection_sort(right, threshold)
 
     return merge(left, right, arr)
+
+####################################################################
+
+def partition(arr, low, high):
+    pivot_ind = random.randint(low, high)
+    arr[pivot_ind], arr[high] = arr[high], arr[pivot_ind]
     
-    
+    pivot = arr[high]
+    i = low - 1
+    for j in range(low, high):
+        if arr[j] <= pivot:
+            i += 1
+            arr[i], arr[j] = arr[j], arr[i]
+    arr[i + 1], arr[high] = arr[high], arr[i + 1]
+    return i + 1
+
+def quick_sort(arr, low, high):
+    if low < high:
+        part_ind = partition(arr, low, high)
+        quick_sort(arr, low, part_ind - 1)
+        quick_sort(arr, part_ind + 1, high)
+    return arr
